@@ -17,11 +17,6 @@ namespace trabajo_grupal
             InitializeComponent();
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-            
-        }
-
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
             
@@ -36,6 +31,10 @@ namespace trabajo_grupal
         {
 
         }
+        private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            validar.NumerosDecimales(e);
+        }
 
         private void textBox2_KeyPress(object sender, KeyPressEventArgs e)
         {
@@ -43,9 +42,10 @@ namespace trabajo_grupal
         }
         private void textBox3_KeyPress(object sender, KeyPressEventArgs e)
         {
-            validar.NumerosDecimales(e);
+            validar.SoloNumeros(e);
         }
 
+      
     }
 
 
