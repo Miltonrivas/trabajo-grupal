@@ -119,6 +119,7 @@
             this.btncargar.TabIndex = 14;
             this.btncargar.Text = "Cargar";
             this.btncargar.UseVisualStyleBackColor = true;
+            this.btncargar.Click += new System.EventHandler(this.btncargar_Click);
             // 
             // btnlimpiar
             // 
@@ -129,6 +130,7 @@
             this.btnlimpiar.TabIndex = 13;
             this.btnlimpiar.Text = "limpiar";
             this.btnlimpiar.UseVisualStyleBackColor = true;
+            this.btnlimpiar.Click += new System.EventHandler(this.btnlimpiar_Click);
             // 
             // Form4
             // 
