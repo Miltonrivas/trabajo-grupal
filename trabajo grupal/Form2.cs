@@ -10,18 +10,26 @@ using System.Windows.Forms;
 
 namespace trabajo_grupal
 {
-    public partial class Form1 : Form
+    public partial class Form2 : Form
     {
-        public Form1()
+        public Form2()
         {
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Form2 hola = new Form2();
-            hola.Show();
+            Form3 r = new Form3();
+            r.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+            this.Hide();
+            Form1 r = new Form1();
+            r.Show();
         }
     }
 }
