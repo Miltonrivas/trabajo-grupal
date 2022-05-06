@@ -73,5 +73,25 @@ namespace trabajo_grupal
             textBox3.Clear();
             textBox4.Clear();
         }
+
+        private void Form4_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            validar.NumerosDecimales(e);
+        }
+
+        private void textBox2_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            validar.NumerosDecimales(e);
+        }
+        private void textBox3_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            validar.NumerosDecimales(e);
+        }
     }
+
 }
