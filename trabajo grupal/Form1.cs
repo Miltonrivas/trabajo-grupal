@@ -23,5 +23,12 @@ namespace trabajo_grupal
             Form2 hola = new Form2();
             hola.Show();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form4 ejer2 = new Form4();
+            ejer2.Show();
+        }
     }
 }
