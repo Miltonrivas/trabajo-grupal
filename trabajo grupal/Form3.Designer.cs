@@ -92,7 +92,7 @@
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(378, 61);
+            this.textBox1.Location = new System.Drawing.Point(378, 63);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(288, 39);
             this.textBox1.TabIndex = 13;
